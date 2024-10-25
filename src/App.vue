@@ -2,11 +2,12 @@
 </script>
 
 <template>
-    <el-button type="primary" round>Primary</el-button>
+
     <router-view></router-view>
 </template>
 
-<style scoped>
+<style scoped lang="scss">
+
 header {
   line-height: 1.5;
   max-height: 100vh;
